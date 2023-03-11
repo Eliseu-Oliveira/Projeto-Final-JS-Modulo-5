@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  margin: 20px;
+}
+
+#cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+
+
+.card1 {
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px gray;
+  padding: 20px;
+  text-align: center;
+  width: 30%;
+}
+
+#total-pago{
+  color: #178D46;
+
+}
+.barra {
+  position: absolute;
+  left: 0.33%;
+  right: 0%;
+  top: 96.71%;
+  bottom: 0%;
+  background: #178D46;
+}
+
+.card2 {
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px gray;
+  padding: 20px;
+  text-align: center;
+  width: 30%;
+}
+#total-a-pagar{
+  color: #FF0000;
+}
+.card3 {
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px gray;
+  padding: 20px;
+  text-align: center;
+  width: 30%;
+}
+#contas-vencidas{
+  color:#FFB800;
+}
+
+#buttons {
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+#busca {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #eee;
+  font-weight: normal;
+}
+
+td:last-child {
+  text-align: center;
+  white-space: nowrap;
+}
+
+td:last-child button {
+  margin-right: 5px;
+}
