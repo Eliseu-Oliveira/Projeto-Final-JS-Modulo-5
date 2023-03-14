@@ -9,8 +9,18 @@
 </head>
 <body>
   <header>
-    <h1>Controle de Despesas</h1>
-  </header>
+  <div class="header-box">
+    <h1></h1>
+    <nav>
+      <ul>
+        <li><a href="#">Despesas</a></li>
+        <li><a href="#">|</a></li>
+        <li><a href="#" id="categorias-link">Categorias</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
   <main>
     <section>
     <div id="cards">
@@ -31,9 +41,23 @@
     <div id="buttons">
       <button id="nova-despesa">Nova Despesa</button>
     </div>
-    <div id="filters">
-      <input type="text" id="busca" placeholder="Buscar por nome ou categoria">
+    <div class="filter">
+      <input type="text" placeholder="Filtrar categorias">
+      <button type="button">Filtrar</button>
     </div>
+    
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Adicionar/Editar Categoria</h2>
+        <input type="text" placeholder="Digite o nome da categoria" style="border-top: none; border-left: none; border-right: none;">
+        <div class="modal-buttons">
+          <button class="save-btn">Salvar</button>
+          <button class="cancel-btn">Cancelar</button>
+        </div>
+      </div>
+    </div>
+    
     <table>
       <thead>
         <tr>
